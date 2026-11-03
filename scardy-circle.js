@@ -28,15 +28,15 @@ function moveCircle() {
     circleSpeed = 2.5;
   }
   if(circleX > 15 && circleY > 15) {
-    if(circleX < width-15 && circleY < width-15) {
+    if(circleX < width-15 && circleY < height-15) {
       circleX += circleSpeed*(slopeX/distToMouse);
       circleY += circleSpeed*(slopeY/distToMouse);
     } else {
       if(circleX >= width-15) {
         circleX = width-16;
       }
-      if(circleY >= width-15) {
-        circleY = width-16;
+      if(circleY >= height-15) {
+        circleY = height-16;
       }
     }
   } else {
