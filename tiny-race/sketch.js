@@ -36,5 +36,9 @@ function draw() {
   if(raceOver) {
     fill(255, 255, 255);
     circle(300, height/2, 100);
+    strokeWeight(1);
+    textSize(30);
+    textAlign(CENTER, CENTER);
+    text('Reset', 300, height/2);
   }
 }
