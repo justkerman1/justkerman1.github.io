@@ -42,3 +42,13 @@ function draw() {
     text('Reset', 300, height/2);
   }
 }
+
+function mouseClicked() {
+  if(raceOver && dist(mouseX, mouseY, 300, height/2) < 50) {
+    arRacerX = [30, 25, 30, 30];
+    startY = 50;
+    yStep = 60;
+    finishX = 560;
+    raceOver = false;
+  }
+}
