@@ -24,9 +24,9 @@ function draw() {
         stroke(0);
         strokeWeight(2);
         textAlign(CENTER, CENTER);
-        text('Winner!', arRacerX[i], y - 27);
+        text('Winner!', arRacerX[i]-20, y - 27);
         strokeWeight(1);
-        fill(255, 230, 230);
+        fill(255, 240, 240);
       } else {
         fill(255, 255, 255);
       }
@@ -37,9 +37,13 @@ function draw() {
     fill(255, 255, 255);
     circle(300, height/2, 100);
     strokeWeight(1);
+    stroke(255)
+    fill(0)
     textSize(30);
     textAlign(CENTER, CENTER);
     text('Reset', 300, height/2);
+    stroke(0);
+    fill(255);
   }
 }
 
