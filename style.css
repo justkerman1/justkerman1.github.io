@@ -1,4 +1,12 @@
+body {
+    background: rgb(10, 10, 10);
+    color: rgb(240, 240, 240);
+}
+/* i want the color palet to be black backround, white text, and 
+   green and grey highlights */
 iframe {
+    border-radius: 5px;
+    border-color: rgb(0, 200, 0);
     width: 400px;
     height: 442px;
 }
